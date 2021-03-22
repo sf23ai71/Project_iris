@@ -1,0 +1,82 @@
+---
+title: "PROF740_LAB1"
+author: 'Fill your name '
+date: 
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r echo=FALSE}
+knitr::opts_chunk$set(error = TRUE)
+```
+
+## Purpose
+The purpose of this LAb is to become familiar with:
+
+1. Statistics
+2. Plot some diagrams.
+
+**IMPORTANT:**Upload the data file Iris.csv and then you start coding in R. 
+
+**IMPORTANT:** You should run all steps by simply adding your code/answers in this document through editing the file PROF740.Rmd and then clicking on the "Knit PDF" button in RStudio.  Once done, please post your .Rmd and pdf files in your dropbox repository in MyCourses.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+Let's now see the exercise:
+
+####PROBLEM STATEMENT
+We use the IRIS dataset. 
+
+
+## Dataset Representation
+## Read Dataset
+You can embed an R code chunk like this:
+
+```{r eval=TRUE, echo=TRUE, error=FALSE}
+
+```
+
+## Comment your results: 
+
+
+## Prepare Dataset Statistics Summary
+
+```{r echo=FALSE}
+
+```
+
+## Prepare Dataset Summary in alternative way
+
+```{r echo=FALSE}
+
+```
+
+##Implementing a Scatterplot
+A scatterplot matrix is a multi-panel display plotting each pair variables vs. one another. The panels above and below the diagonal are essential the same plot with the exception that the horizontal (X) and vertical axis (Y) variables are switched. 
+ 
+```{r echo=FALSE}
+
+```
+
+```{r echo=FALSE}
+
+
+```
+
+#Comment Results
+
+
+
+
+##Conditional Plots 
+The coplot function can be used to create conditional plots between the data
+
+```{r echo=FALSE}
+
+```
+
+#Comment your results
+ 
+
+
